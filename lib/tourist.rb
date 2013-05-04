@@ -3,7 +3,6 @@ require 'monitor'
 require 'common'
 require 'webrat'
 require 'webrat/adapters/mechanize'
-require 'webrat_headers_patch' # must come after webrat requires
 require 'test/unit/assertions'
 
 # A tourist is essentially a test suite file. A Tourist subclass
